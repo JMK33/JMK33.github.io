@@ -1,17 +1,26 @@
 # JMK33.github.io
-
-<html lang=pl>
-  <head>
+<html><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-  </head>
-  <body>
-    <header>
-    </header>
-    <nav>
-    </nav>
-  <section>
+    <title>JMK33</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&amp;display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <img id="userPhoto" src="Avatar.jpeg" alt="User Photo">
     
-  </section>
+    <a href="https://www.instagram.com/xlordBN/" id="userName">@xlordBN🇵🇱</a>
+    <div id="links">
+        <a class="link" href="https://twitch.tv/xlordBN" target="_blank">Twitch</a>
+        <a class="link" href="https://www.tiktok.com/@fp_papaja" target="_blank">TikTok</a>
+        <a class="link" href="https://twitter.com/xlordBN" target="_blank">Twitter</a>
+    </div>
+    <script src="shortcut.js"></script>
+    <script>shortcut.add("Ctrl+B",function() { alert("Jestem w twoich zakładkach :)"); },{ 'type':'keypress', 'propagate':true, 'target':document });</script>
     
-  </body>
-</html>
+
+</body></html>
